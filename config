@@ -1,0 +1,20 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[lfs]
+	repositoryformatversion = 0
+[gui]
+	wmstate = normal
+	geometry = 841x483+130+130 189 218
+[remote "origin"]
+	url = https://github.com/semprochina/Python-1-.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+
+[user]
+email=sempeo0112@qq.com
+email=sempro777@outlook.com
+name=sempeochina
