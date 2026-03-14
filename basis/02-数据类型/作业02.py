@@ -1,0 +1,6 @@
+name = input("请输入你的姓名：")
+age = input("请输入你的年龄：")
+gender = input("请输入你的性别：")
+hobby = input("请输入你的爱好:")
+occupation = input("请输入你的职业：")
+print(f"姓名{name},年龄{age},性别{gender},爱好{hobby},职业{occupation}")

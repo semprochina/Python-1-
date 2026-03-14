@@ -1,0 +1,56 @@
+  * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            background-image: url(bg2.jpg);
+            background-size: cover;
+        }
+
+        .compare {
+            display: grid;
+            --pos: 50%; /* 初始化变量 */
+        }
+
+        .compare * {
+            width: 800px;
+            grid-area: 1 / 1;
+        }
+
+        .compare div {
+            display: grid;
+            place-content: center;
+        }/*点是class*/
+
+        .before {
+            clip-path: inset(0 calc(100% - var(--pos, 50%)) 0 0);
+        }
+
+        .after {
+            clip-path: inset(0 0 0 var(--pos, 50%));
+        }
+
+        #range {
+            z-index: 1;
+            appearance: none;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        #range::-webkit-slider-thumb {
+            appearance: none;
+            width: 1px;
+            height: 100vh;
+            background-image: linear-gradient(
+                to bottom,
+                #91defe,
+                #99c0f9,
+                #bdb6ec,
+                #d7b3e3,
+                #efb3d5,
+                #f9bccc
+            );/*#是id=*/
+        }
