@@ -1,0 +1,15 @@
+body{
+    /*表示只要是引用这个css得话，那么body就得按照下面来*/
+    background-color: #69C6FC;
+}
+.d1{
+    /*只要有标签的class叫d1，那么就得按照下面的来*/
+    background-color: palevioletred;
+    width: 400px;
+    height: 200px;
+    margin:200px;
+}
+.d1:hover{
+    /*只要鼠标悬停到class叫d1的元素上，那么就按照下面来*/
+    transform: scale(1.5);
+}
